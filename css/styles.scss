@@ -1,0 +1,51 @@
+$txt_color: #FFFFFF;
+$primary_color: #0063E5;
+$secondary_color: #232323;
+
+// Variables
+
+
+.info {
+	background: $primary_color;
+	padding: 5em;
+	margin: 5em 0 5em 0;
+
+	@media screen and (max-width: 768px){
+	
+		padding: 2em;
+		
+	}
+}
+
+.info__h1 {
+	color: $txt_color;
+	margin-top: 15px;
+}
+
+.info__p {
+	font-weight: lighter;
+	margin-top: 15px;
+}
+
+.info__btn {
+	background: #FFFFFF;
+	color: $primary_color;
+}
+
+.info__btn:hover{
+	background: $secondary_color;
+	color: #FFFFFF ;
+}
+
+
+.registro__formulario {
+	@media screen and (max-width: 768px){
+		padding: 2em;
+	}
+}
+
+.menu__list {
+		@media screen and (max-width: 768px){
+			margin: 0;
+	}
+}

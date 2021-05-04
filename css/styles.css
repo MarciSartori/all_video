@@ -1,0 +1,33 @@
+.info {
+  background: #0063E5;
+  padding: 5em;
+  margin: 5em 0 5em 0; }
+  @media screen and (max-width: 768px) {
+    .info {
+      padding: 2em; } }
+
+.info__h1 {
+  color: #FFFFFF;
+  margin-top: 15px; }
+
+.info__p {
+  font-weight: lighter;
+  margin-top: 15px; }
+
+.info__btn {
+  background: #FFFFFF;
+  color: #0063E5; }
+
+.info__btn:hover {
+  background: #232323;
+  color: #FFFFFF; }
+
+@media screen and (max-width: 768px) {
+  .registro__formulario {
+    padding: 2em; } }
+
+@media screen and (max-width: 768px) {
+  .menu__list {
+    margin: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
